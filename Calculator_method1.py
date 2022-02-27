@@ -29,6 +29,7 @@ def Calculator():
             total.append(int(User_input))           # add it to the empty list
         elif User_input.isalpha():                 # check if any alphabet is pressed
             print('Enter Number first')               #tell the user not to enter alphabet
+            print('Done')
 
 
 Calculator()                   #invoking the function
